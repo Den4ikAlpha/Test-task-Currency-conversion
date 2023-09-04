@@ -1,0 +1,36 @@
+// BasicTable.module.scss
+
+.tableContainer {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff; // Make the background white
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 500px;
+  
+    th, td {
+      padding: 16px;
+    }
+  }
+  
+  .tableHead {
+    background-color: #fff; // Make the header white
+    color: #000; // Text in black for contrast
+  
+    th {
+      padding: 16px;
+    }
+  }
+  
+  .tableRow {
+    height: 80px;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.03); // Very light gray on hover
+    }
+  }
+  
